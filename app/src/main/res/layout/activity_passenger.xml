@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        tools:context=".PassengerActivity">
+
+
+
+
+
+    </fragment>
+
+    <Button
+        android:id="@+id/btnRequestCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request a Car" />
+
+
+    <Button
+        android:id="@+id/btnBeepBeep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beep Beep!" />
+
+    <Button
+        android:id="@+id/btnLogoutFromPassengerActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout from App" />
+
+</LinearLayout>
